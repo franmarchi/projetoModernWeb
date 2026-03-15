@@ -1,0 +1,59 @@
+/* título */
+
+h2{
+    text-align:center;
+    color:white;
+    margin-bottom:20px;
+}
+
+/* tabela das datas */
+
+table{
+    width:100%;
+    text-align:center;
+}
+
+td{
+    padding:10px;
+}
+
+/* centralizar grid de botões */
+
+table tr{
+    text-align:center;
+}
+
+/* botões de ícones */
+
+button i{
+    font-size:32px;
+}
+
+main table button{
+    width:65px;
+    height:65px;
+    border:none;
+    border-radius:6px;
+    background:#d9d9d9;
+    cursor:pointer;
+}
+
+/* espaçamento entre linhas de ícones */
+
+main table tr{
+    height:90px;
+}
+
+/* botão encerrar sessão */
+
+#btnEncerrarSessao{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:6px;
+    background:#d9d9d9;
+    font-size:16px;
+    cursor:pointer;
+    margin-top:20px;
+    color: #777;
+}

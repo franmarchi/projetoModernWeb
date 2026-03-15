@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+     font-family: Mukta;
+}
+
+/* BACKGROUND PADRÃO DO SISTEMA */
+
+body{
+    background:#909597;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+/* Container geral */
+
+section{
+    width:90%;
+    max-width:420px;
+    background:#8f9497;
+    padding:20px;
+}
+
+/* Form */
+
+main{
+    width:100%;
+}
+
+form{
+    width:100%;
+}
+
+label{
+    font-size:14px;
+    color:white;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin-top:6px;
+    margin-bottom:16px;
+    border:none;
+    border-radius:6px;
+}
+
+/* Rodapé */
+
+footer{
+    display:flex;
+    justify-content:center;
+}
+
+/* Responsividade */
+
+@media (max-width:480px){
+
+    section{
+        width:95%;
+        padding:18px;
+    }
+
+    .logo li{
+        width:100px;
+        height:100px;
+        font-size:40px;
+    }
+
+    .btn-orcamento{
+        width:100%;
+    }
+
+}
