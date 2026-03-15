@@ -1,0 +1,85 @@
+h2{
+    text-align:center;
+    color:white;
+    margin-bottom:25px;
+}
+
+main{
+    width:100%;
+}
+
+/* tabelas */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-bottom:35px;
+    text-align: center;
+}
+
+/* título das seções */
+
+th{
+    text-align:center;
+    color:white;
+    font-weight:400;
+    padding-bottom:15px;
+}
+
+/* linhas de documentos */
+
+td{
+    text-align: center;
+    color:white;
+    padding:10px 0;
+}
+
+/* aparência de link de arquivo */
+
+td:first-child{
+    text-decoration:underline;
+}
+
+/* coluna do ícone */
+
+tbody td:last-child{
+    text-align:right;
+    width:40px;
+}
+
+/* ícone de anexo */
+
+td i{
+    font-size:18px;
+    cursor:pointer;
+}
+
+#btnPaginaInicial{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:6px;
+    background:#d9d9d9;
+    font-size:16px;
+    margin-top:25px;
+    cursor:pointer;
+}
+
+tbody tr{
+    transition:0.2s;
+}
+
+tbody tr:hover{
+    background:rgba(255,255,255,0.08);
+    cursor:pointer;
+}
+
+/* leve animação no ícone */
+
+td i{
+    transition:0.2s;
+}
+
+tbody tr:hover i{
+    transform:scale(1.15);
+}

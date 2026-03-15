@@ -1,0 +1,39 @@
+h2{
+    text-align:center;
+    color:white;
+    margin-bottom:25px;
+}
+
+/* área principal */
+
+main{
+    width:100%;
+}
+
+/* container da imagem */
+
+figure{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+/* imagem */
+
+figure img{
+    max-width:100%;
+    height:auto;
+    border-radius:6px;
+}
+
+#btnPaginaInicial{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:6px;
+    background:#d9d9d9;
+    font-size:16px;
+    margin-top:25px;
+    cursor:pointer;
+}
