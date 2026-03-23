@@ -1,44 +1,82 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diário de Obra</title>
+
+    <!-- Ícones -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="../css/PatternStyle.css">
     <link rel="stylesheet" href="../css/Dailybuilding.css">
-    <title>Diário de Obra</title>
 </head>
 
 <body>
 
-        <section>
-            <h2>
-                Projeto Residencial xyz
-            </h2>
-            <br />
-        </section>
-    
-    <main>
+    <!-- Container geral -->
+    <div class="container">
 
-        <form>
-            <figure>
-                <img src="bi bi-image" width="400" height="400" alt="Imagem">
-            </figure>
-        </form>
-    
-    </main>
+        <!-- HEADER -->
+        <header class="header">
+            <div class="header-content">
+                <h1>Diário de Obra</h1>
+                <h2>Projeto Residencial XYZ</h2>
+            </div>
+        </header>
 
-    <section>
+        <!-- MAIN -->
+        <main class="main-content">
+            <div class="main-wrapper">
 
-        <footer>
-            <button id="btnPaginaInicial">
-                PÁGINA INICIAL
-            </button>
+                <form class="formulario">
+
+                    <div class="card">
+
+                        <!-- Área da imagem -->
+                        <div class="card-image">
+                            <figure>
+                                <img src="../img/imagem-exemplo.jpg" alt="Imagem do andamento da obra">
+                                <figcaption>Registro da obra</figcaption>
+                            </figure>
+                        </div>
+
+                        <!-- (Espaço para futuros campos) -->
+                        <div class="card-body">
+                            <label>E-mail</label>
+                            <input type="email">
+
+                            <label>Senha</label>
+                            <input type="password">
+
+                            <button type="submit">ENTRAR</button>
+
+                            <div class="forgot-password">Esqueceu a senha?</div>
+
+                            <button type="button" class="secondary-button">
+                                Solicite um orçamento
+                            </button>
+                        </div>
+
+                    </div>
+
+                </form>
+
+            </div>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer-content">
+                <button id="btnPaginaInicial" type="button">
+                    <i class="bi bi-house-door"></i> Página Inicial
+                </button>
+            </div>
         </footer>
-    
-    </section>
+
+    </div>
 
 </body>
 
