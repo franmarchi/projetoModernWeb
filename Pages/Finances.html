@@ -5,89 +5,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
     <link rel="stylesheet" href="../css/PatternStyle.css">
-    <link rel="stylesheet" href="../css/Finances.css">
+    <!-- <link rel="stylesheet" href="../css/Finances.css"> -->
+
     <title>Financeiro</title>
 </head>
 
 <body>
-    
-        <section>
-        <h2>
-            Projeto Residencial xyz
-        </h2>
-        <br />
-    
-    </header>
-    
-    <main>
 
-        <form>
+    <div class="container">
 
-            <section>
+        <header class="header">
+            <div class="header-content">
+                <h2 class="titulo">Projeto Residencial xyz</h2>
+            </div>
+        </header>
 
-                <table>
-                    <td>
-                        <tr>
-                            <label>
-                                Valor Total Estimado
-                            </label>
-                            <br />
-                            <input type="text" id="vlrEstimado" value="100.000,00">
-                    </td>
-                    <td>
-                        <label>
-                            Valor Real
-                        </label>
-                        <br />
-                        <input type="text" id="vlrReal" value="50.000,00">
-                    </td>
-                    </tr>
-                </table>
-           
-            </section>
-       
-        </form>
-        
-        <section>
-            
-            <form>
-           
-              <table>
-                <thead>
-                    <tr>
-                        <th>Boletos a serem pagos</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>boleto1.pdf</td>
-                    </tr>
-                    <tr>
-                         <td>boleto2.pdf</td>
-                    </tr>
-                    <tr>
-                        <td>boleto3.pdf</td>
-                    </tr>
-                </tbody>
-                </table>
-            
-            </form>
-        
-        </section>
-    
-    </main>
-    
-    <section>
-        
-        <footer>
-            <button id="btnPaginaInicial">
-                PÁGINA INICIAL
-            </button>
+        <main class="main">
+            <div class="main-content">
+
+                <form class="form">
+
+                    <section class="valores">
+                        <div class="valores-container">
+
+                            <div class="campo">
+                                <div class="campo-content">
+                                    <label for="vlrEstimado">Valor Total Estimado</label>
+                                    <input type="text" id="vlrEstimado" value="100.000,00">
+                                </div>
+                            </div>
+
+                            <div class="campo">
+                                <div class="campo-content">
+                                    <label for="vlrReal">Valor Real</label>
+                                    <input type="text" id="vlrReal" value="50.000,00">
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <section class="boletos">
+                        <div class="boletos-container">
+
+                            <div class="boletos-header">
+                                <h3>Boletos a serem pagos</h3>
+                            </div>
+
+                            <div class="boletos-lista">
+
+                                <div class="boleto-item">
+                                    <i class="bi bi-file-earmark-pdf"></i>
+                                    <span>boleto1.pdf</span>
+                                </div>
+
+                                <div class="boleto-item">
+                                    <i class="bi bi-file-earmark-pdf"></i>
+                                    <span>boleto2.pdf</span>
+                                </div>
+
+                                <div class="boleto-item">
+                                    <i class="bi bi-file-earmark-pdf"></i>
+                                    <span>boleto3.pdf</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </section>
+
+                </form>
+
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <button id="btnPaginaInicial">
+                    PÁGINA INICIAL
+                </button>
+            </div>
         </footer>
-    
-    </section>
+
+    </div>
 
 </body>
 

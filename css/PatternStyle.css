@@ -1,128 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-     font-family: Mukta;
-}
-
-/* BACKGROUND PADRÃO*/
-
-body{
-    background:#909597;
-    min-height:100vh;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-}
-
-/* Container geral */
-
-section{
-    width:90%;
-    max-width:420px;
-    background:#8f9497;
-    padding:20px;
-}
-
-/* Form */
-
-main{
-    width:100%;
-}
-
-form{
-    width:100%;
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Mukta;
 }
 
-/* Fundo da página */
 body {
-    height: 100vh;
-    background: linear-gradient(to right, #1c1c1c, #2a2a2a);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: #909597;
+    min-height: 100vh;
 }
 
-/* Container central */
 .container {
-    width: 100%;
-    max-width: 420px;
-}
-
-/* Card principal */
-.card {
-    background-color: #8f9497;
-    padding: 30px 25px;
-    border-radius: 8px;
-    box-shadow: 0 0 0 10px #e5e5e5;
-}
-
-/* Header */
-.header-content {
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-.header-content h1 {
-    color: #e5e5e5;
-    font-size: 14px;
-    letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
 }
 
 
-/* Footer */
 .footer {
-    margin-top: 15px;
-    text-align: center;
-}
-}
-
-label{
-    font-size:14px;
-    color:white;
-}
-
-input{
-    width:100%;
-    padding:12px;
-    margin-top:6px;
-    margin-bottom:16px;
-    border:none;
-    border-radius:6px;
+    display: flex;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #dcdcdc;
+    color: #7a7a7a;
+    cursor: pointer;
+    border: none;
+        justify-content: space-around;
+    align-items: baseline;
 }
 
-/* Rodapé */
-
-footer{
-    display:flex;
-    justify-content:center;
+.footer-content {
+    width: 100px;
+    display: flex;
 }
 
-/* Responsividade */
-
-@media (max-width:480px){
-
-    section{
-        width:95%;
-        padding:18px;
+@media screen and (max-width: 480px) {
+    body {
+        width: 100%;
     }
 
-    .logo li{
-        width:100px;
-        height:100px;
-        font-size:40px;
+    header {
+        display: flex;
     }
-
-    .btn-orcamento{
-        width:100%;
-    }
-
 }

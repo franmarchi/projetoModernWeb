@@ -1,78 +1,38 @@
-/* Área da imagem */
-.card-image {
+.diario-header {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #f1f1f1;
+}
+
+/* IMAGEM */
+.imagem-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 25px;
-}
-
-.card-image img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    background-color: #d9d9d9;
-    object-fit: cover;
-}
-
-/* Formulário */
-.formulario {
-    width: 100%;
-}
-
-/* Inputs */
-.formulario label {
-    display: block;
-    font-size: 12px;
-    color: #e5e5e5;
-    margin-bottom: 5px;
-}
-
-.formulario input {
-    width: 100%;
-    padding: 12px;
-    border: none;
-    border-radius: 6px;
     margin-bottom: 15px;
-    background-color: #dcdcdc;
-    outline: none;
 }
 
-/* Botão principal */
-.formulario button {
-    width: 100%;
-    padding: 12px;
-    border: none;
+.imagem-preview {
+    width: 250px;
+    height: 200px;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 6px;
-    background-color: #cfcfcf;
-    color: #7a7a7a;
-    font-weight: bold;
-    cursor: pointer;
-    margin-top: 10px;
 }
 
-.formulario button:hover {
-    background-color: #bfbfbf;
+.imagem-preview img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
-/* Link "esqueceu senha" */
-.forgot-password {
-    text-align: center;
-    font-size: 12px;
-    color: #e5e5e5;
-    margin-top: 10px;
+/* BOTÕES */
+.acoes {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
 }
 
-/* Botão secundário */
-.secondary-button {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 6px;
-    margin-top: 20px;
-    background-color: #dcdcdc;
-    color: #7a7a7a;
-    cursor: pointer;
-}
-
-.secondary-button:hover {
-    background-color: #c9c9c9;
+.btn-acao {
+    flex: 1;
 }

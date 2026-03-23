@@ -1,68 +1,71 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diário de Obra</title>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./css/PatternStyle.css">
-    <link rel="stylesheet" href="./css/Index.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="../css/PatternStyle.css">
+    <link rel="stylesheet" href="../css/Index.css">
 </head>
 
-<body>
-
-    <section>
-      
-        <header class="logo">
-            <li><i class="bi bi-image"></i></li>
-            <br />
+<body class="body">
+    <section class="section">
+        <div class="card-image">
+            <figure>
+                <img src="../img/imagem-exemplo.jpg" alt="LOGO">
+            </figure>
+        </div>
         </header>
+    </section>
     
+    <section class="section">
+        
+        <div class="container">
+
+            <main class="main-content">
+
+                <div class="main-wrapper">
+
+                    <form class="formulario">
+
+                        <div class="card">
+
+                            <div class="card-body">
+                                <label>E-mail</label>
+                                <input type="email">
+
+                                <label>Senha</label>
+                                <input type="password">
+
+                                <button type="submit" class="button">ENTRAR</button>
+
+                                <div class="forgot-password">Esqueceu a senha?</div>
+
+                                <button type="button" class="button">
+                                    Solicite um orçamento
+                                </button>
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+            </main>
+
+        </div>
     </section>
 
-    <section>
-        
-        <main>
-           
-            <form>
-                <section>
-                    <label>E-mail</label>
-                    <br />
-                    <input type="text" id="txtEmail">
-                    <br />
-                    <label>Senha</label>
-                    <br />
-                    <input type="password" id="txtSenha">
-                </section>
-                <br />
-                <section>
-                    <button id="btnEntrar" class="btn-login">
-                        ENTRAR
-                    </button>
-                    <br />
-                    <div class="forgot">
-                        Esqueceu sua senha?
-                    </div>
-                </section>
-                <br />
-            </form>
-        
-        </main>
-    
-    </section>
-
-    <section>
-        
-        <footer>
-           
-            <button id="btnOrçamento" class="btn-orcamento">
-                SOLICITE UM ORÇAMENTO
+    <footer class="footer">
+        <div class="footer-content">
+            <button id="btnPaginaInicial" type="button">
+                <i class="bi bi-house-door"></i> Página Inicial
             </button>
-       
-        </footer>
-    </section>
+        </div>
+    </footer>
 
 </body>
 
